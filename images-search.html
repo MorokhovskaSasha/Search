@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Google</title>
+  </head>
+  <body>
+    <div>
+      <header>
+          <ul>
+            <li class="link-list-item">
+              <a href="index.html">
+                <button class="button" type="button">Search</button>
+              </a>
+            </li>
+            <li class="link-list-item">
+              <a href="advanced-search.html">
+                <button class="button" type="button">Advanced Search</button>
+              </a>
+            </li>
+          </ul>
+      </header>
+
+      <div class="image-container">
+          <h1 class="logo">Images</h1>
+      </div>
+
+      <div class="search-block-container">
+        <form action="http://www.google.ee/search">
+          <div class="search-wrapper">
+            <div class="search-block">
+              <div class="search-img-container">
+                <img
+                  class="search-icon"
+                  src="images\s-icon.webp"
+                  alt="Magnifying glass icon"
+                />
+              </div>
+              <div class="search-input-container">
+                <input class="input-search" type="text" name="q" />
+                <input type="hidden" name="tbm" value="isch" />
+              </div>
+            </div>
+          </div>
+          <div class="input-block">
+            <ul>
+              <li class="input-list-item">
+                <input
+                  class="button"
+                  type="submit"
+                  value="Search"
+                />
+              </li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
